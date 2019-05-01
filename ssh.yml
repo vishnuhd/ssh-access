@@ -1,0 +1,8 @@
+--- #ssh-access main yaml
+  - hosts: servers
+    gather_facts: False
+    remote_user: ec2-user
+    become: true
+    become_user: root
+    roles:
+      - ssh-access

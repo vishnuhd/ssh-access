@@ -1,0 +1,7 @@
+[servers]
+servers1
+servers2
+
+[servers:vars]
+user_name=dev
+user_des="Developer"

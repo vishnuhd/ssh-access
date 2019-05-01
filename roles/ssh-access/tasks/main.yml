@@ -1,0 +1,8 @@
+--- #main yaml to perform tasks based on the action
+- name: Add user tasks
+  import_tasks: grant.yml
+  when: action == "grant"
+ 
+- name: Remove user tasks
+  import_tasks: revoke.yml
+  when: action == "revoke"
