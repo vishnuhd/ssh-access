@@ -82,6 +82,6 @@ https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
 
 ## P.S.
 1. Please make sure to add IPs or DNS of target servers in inv file.
-2. Update the variabale "user_name" and "user_des" in inv file.
+2. Update the variable "user_name" and "user_des" in inv file.
 3. Create a directory under "keys" directory having the same name as "user_name" and put its SSH public key in it.
 4. Setup a user (in my case - ec2-user) who should have passwordless access to both the servers in order to run our ansible scripts.
