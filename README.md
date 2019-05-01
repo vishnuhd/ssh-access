@@ -68,7 +68,7 @@ server2                    : ok=2    changed=2    unreachable=0    failed=0
 ```
 
 ### To check the results login into your "user_name" account and ssh into one of your servers
-'''
+```
 [dev@ip-10-0-2-106 ~]$ ssh 10.0.1.6
 Last login: Wed May  1 15:06:34 2019 from ip-10-0-2-106.ec2.internal
 
@@ -78,7 +78,7 @@ Last login: Wed May  1 15:06:34 2019 from ip-10-0-2-106.ec2.internal
 
 https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
 [dev@ip-10-0-1-6 ~]$ 
-'''
+```
 
 ## P.S.
 1. Please make sure to add IPs or DNS of target servers in inv file.
