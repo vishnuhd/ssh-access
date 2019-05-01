@@ -1,6 +1,6 @@
 [servers]
-servers1
-servers2
+server1
+server2
 
 [servers:vars]
 user_name=dev
